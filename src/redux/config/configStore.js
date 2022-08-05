@@ -3,7 +3,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import counter from "../modules/prectice" 
 
 const store = configureStore({
-  reducers: {
+  reducer: {
 		counter,
   },
 });
